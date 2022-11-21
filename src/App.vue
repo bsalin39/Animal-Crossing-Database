@@ -1,8 +1,9 @@
 <script setup>
-  import NavMenu from '@/components/NavMenu.vue'
+  import HomeMenu from '@/components/HomeMenu.vue'
+  import FishMenu from '@/components/FishMenu.vue'
 </script>
 
 <template>
-  <NavMenu />
+  <HomeMenu />
   <RouterView />
 </template>
