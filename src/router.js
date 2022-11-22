@@ -9,13 +9,13 @@ import ArtPage from '@/views/ArtPage.vue'
 
 const routes = [
   { path: '/', name: 'Home', component: HomePage },
-  { path: '/fish', name: 'Fish', component: FishiesPage  },
-  { path: '/saltwater', name: 'Saltwater Fish', component: SaltwaterFish  },
-  { path: '/freshwater', name: 'Freshwater Fish', component: FreshwaterFish  },
-  { path: '/bugs', name: 'Critters', component: BugsPage  },
-  { path: '/art', name: 'Art', component: ArtPage  },
-  
- // { path: '/other', name: 'Fish', component: (Fish) => import('@/views/FishiesPage.vue') },
+  { path: '/fish', name: 'Fish', component: FishiesPage },
+  { path: '/saltwater', name: 'Saltwater Fish', component: SaltwaterFish },
+  { path: '/freshwater', name: 'Freshwater Fish', component: FreshwaterFish },
+  { path: '/bugs', name: 'Critters', component: BugsPage },
+  { path: '/art', name: 'Art', component: ArtPage },
+
+  // { path: '/other', name: 'Fish', component: (Fish) => import('@/views/FishiesPage.vue') },
   //{ path: '/other', name: 'Other', component: () => import('@/views/OtherPage.vue') },
   //{ path: '/other', name: 'Other', component: () => import('@/views/OtherPage.vue') },
 ]
