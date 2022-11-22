@@ -5,7 +5,7 @@
     <RouterLink to="/freshwater">Freshwater Fish</RouterLink>
   </nav>
 
-    <main class="flex min-h-screen items-center justify-center">
+  <main class="flex min-h-screen items-center justify-center">
     <h1 class="text-6xl font-thin text-slate-800">I'm FishMenu page</h1>
   </main>
 </template>
