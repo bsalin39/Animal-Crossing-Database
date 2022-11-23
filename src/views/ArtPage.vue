@@ -1,5 +1,11 @@
 <template>
-  <main class="flex min-h-screen items-center justify-center">
-    <h1 class="text-6xl font-thin text-slate-800">I'm art page</h1>
+  <main>
+    <h1 class="content">I'm art page</h1>
   </main>
 </template>
+
+<style scoped lang="postcss">
+.content {
+  @apply text-6xl font-thin text-slate-800;
+}
+</style>
