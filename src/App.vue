@@ -1,9 +1,6 @@
 <script setup>
 import MainMenu from '@/components/MainMenu.vue'
 //import FishiesPage from '@/components/FishiesPage.vue'
-
-// template stuff <img class="bg-img" src="https://images5.alphacoders.com/956/956578.jpg" />
-
 // script stuff @layer h-screen background-color:(from-green-200  via-green-300 to-blue-500); ;
 </script>
 
@@ -12,9 +9,14 @@ import MainMenu from '@/components/MainMenu.vue'
   <main>
     <div class="card">
       <RouterView />
-      <MainMenu />
+
+      <MainMenu /><img class="bg-img" src="https://images5.alphacoders.com/956/956578.jpg" />
     </div>
   </main>
 </template>
 
-<style scoped lang="postcss"></style>
+<style scoped lang="postcss">
+.bg-img {
+  @apply opacity-70;
+}
+</style>
